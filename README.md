@@ -14,3 +14,7 @@ When looking at rust docs through a `file:///` URL, a chosen theme will not carr
 Package extension with `make package`. Go to `about:addons -> Gear Icon -> Install addon from file...` and select `extension.zip`.
 
 You can also install it directly from [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/rustdoc-global-theme/).
+
+## Usage
+
+Click the addon's icon (currently the default icon 😅), then choose your desired theme. All rustdoc pages will now have that theme (you will have to refresh any already-open pages).
