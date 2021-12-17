@@ -4,7 +4,10 @@
     "version": "1.0",
     "description": "Sets your rustdoc theme globally.",
     "permissions": [
-        "<all_urls>"
+        "*://doc.rustlang.org/*",
+        "*://docs.rs/*",
+        "file:///*",
+        "*://localhost/*"
     ],
     "background": {
         "scripts": [

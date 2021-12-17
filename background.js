@@ -21,7 +21,12 @@ async function updateTheme() {
     }
     if (localStorage.getItem("theme")) {
         let newContentScriptHandle = await browser.contentScripts.register({
-            matches: ["<all_urls>"], runAt: "document_start", js: [{
+            matches: [
+                "*://docs.rs/*",
+                "*://doc.rustlang.org/*",
+                "file:///*",
+                "*://localhost/*"
+            ], runAt: "document_start", js: [{
                 code: generateScript(localStorage.getItem("theme"))
             }]
         })
