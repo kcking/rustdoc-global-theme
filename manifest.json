@@ -17,5 +17,10 @@
     "browser_action": {
         "default_title": "Choose Theme",
         "default_popup": "popup.html"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{602ceb94-c0e7-45a1-91d1-eea8ced2de46}"
+        }
     }
 }
