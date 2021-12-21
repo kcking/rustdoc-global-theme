@@ -17,4 +17,4 @@ You can also install it directly from [addons.mozilla.org](https://addons.mozill
 
 ## Usage
 
-Click the addon's icon (currently the default icon 😅), then choose your desired theme. All rustdoc pages will now have that theme (you will have to refresh any already-open pages).
+Click the addon's icon (a monochrome ferris), then choose your desired theme. All rustdoc pages will now have that theme (you will have to refresh any already-open pages).

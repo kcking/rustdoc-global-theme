@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Rustdoc Global Theme",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Sets your rustdoc theme globally.",
     "permissions": [
         "*://doc.rustlang.org/*",
@@ -22,5 +22,9 @@
         "gecko": {
             "id": "{602ceb94-c0e7-45a1-91d1-eea8ced2de46}"
         }
+    },
+    "icons": {
+        "48": "icon.svg",
+        "96": "icon.svg"
     }
 }
